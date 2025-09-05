@@ -7,14 +7,14 @@ function Home() {
     <section
       id="home"
       style={{ backgroundImage: `url(${images.bg})` }}
-      className="relative scroll-mt-20 sm:pt-26 pt-20 bg-cover min-h-screen flex flex-col md:flex-row items-center px-8 md:px-16 md:pt-12"
+      className="relative scroll-mt-20 sm:pt-26  pt-34  bg-cover min-h-screen flex flex-col md:flex-row items-center px-8 md:px-16 md:pt-12"
     >
       <div className="absolute inset-0 bg-black/60"></div>
 
       {/* Left Content */}
-      <div className="relative z-10 flex-1 text-center md:text-left lg:pl-36 text-white space-y-6">
+      <div className="relative z-10 flex-1 text-center md:text-left lg:pl-28 text-white space-y-6">
         <MotionWrapper delay={0}>
-          <h1 className="text-5xl lg:text-7xl md:text-6xl font-extrabold">
+          <h1 className="text-4xl lg:text-6xl md:text-5xl font-extrabold">
             Hi There! 👋
           </h1>
         </MotionWrapper>
@@ -37,7 +37,7 @@ function Home() {
         <MotionWrapper delay={0.6}>
           <div className="flex justify-center md:justify-start gap-4 pt-4">
             <a
-              href="#projects"
+              href="projects"
               className="px-6 py-3 bg-teal-500 hover:bg-teal-600 rounded-xl shadow-md transition font-semibold"
             >
               View Projects
@@ -58,7 +58,7 @@ function Home() {
           <img
             src={images.Home1}
             alt="profile"
-            className="w-72 md:w-96 lg:w-[450px] object-contain drop-shadow-[0_10px_25px_rgba(0,0,0,0.5)]"
+            className="w-72 md:w-96 lg:w-[450px] object-contain lg:mr-28 drop-shadow-[0_10px_25px_rgba(0,0,0,0.5)]"
           />
         </div>
       </MotionWrapper>
