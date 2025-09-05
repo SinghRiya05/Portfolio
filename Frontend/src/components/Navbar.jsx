@@ -57,8 +57,15 @@ function Navbar() {
 
         {/* Icon */}
         <div className="hidden md:block hover:cursor-pointer">
-          <GitBranch size={28} className="text-white " />
-        </div>
+  <a 
+    href="https://github.com/SinghRiya05/Portfolio.git" 
+    target="_blank" 
+    rel="noopener noreferrer"
+  >
+    <GitBranch size={28} className="text-white" />
+  </a>
+</div>
+
 
         {/* Mobile Menu Button */}
         <button className="md:hidden" onClick={() => setOpen(!open)}>
